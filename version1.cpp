@@ -1,8 +1,9 @@
 #include<iostream>
 #include"BISECTION.h"
 #include"NEWTON_R.h"
+#include"EULER.h"
 using namespace std;
-double a, b,e;
+double a, b,e,value;
 void menu()
 {
 	int select;
@@ -15,6 +16,7 @@ void menu()
 	cin >> select;
 	BISECTION v;
 	NEWTON_R v2;
+	EULER v3;
 	switch (select)
 	{
 	case 1:
@@ -43,10 +45,19 @@ void menu()
 	case 3:
 		cout << "choose one of available rule:-\n";
 		cout << " 1) forward\t\t2)backward";
+
 		break;
 	case 4:
 		cout << "choose one of available differential equations :-\n";
 		cout << " (1) dy/dx=-2x-y\n (2) dy/dx=x+y\n";
+		cin >> select;
+		cout << "Enter the initial value for X and Y respectively:-\n";
+		cin >> a >> b;
+		cout << "For what value of X do you want to find the value of Y:\n";
+		cin >> value;
+		cout << "Enter the width of the sub-interval:\n";
+		cin >> e;
+		v3.evaluate(select, a, b, value, e);
 		break;
 	}
 

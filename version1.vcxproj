@@ -140,11 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BISECTION.cpp" />
+    <ClCompile Include="DIFFERENCE_TABLE.cpp" />
+    <ClCompile Include="EULER.cpp" />
     <ClCompile Include="NEWTON_R.cpp" />
     <ClCompile Include="version1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BISECTION.h" />
+    <ClInclude Include="DIFFERENCE_TABLE.h" />
+    <ClInclude Include="EULER.h" />
     <ClInclude Include="NEWTON_R.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
