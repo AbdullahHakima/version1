@@ -143,6 +143,7 @@
     <ClCompile Include="DIFFERENCE_TABLE.cpp" />
     <ClCompile Include="EULER.cpp" />
     <ClCompile Include="NEWTON_R.cpp" />
+    <ClCompile Include="start.cpp" />
     <ClCompile Include="version1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +151,7 @@
     <ClInclude Include="DIFFERENCE_TABLE.h" />
     <ClInclude Include="EULER.h" />
     <ClInclude Include="NEWTON_R.h" />
+    <ClInclude Include="start.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

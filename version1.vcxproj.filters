@@ -30,6 +30,9 @@
     <ClCompile Include="EULER.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BISECTION.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EULER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="start.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
